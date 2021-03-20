@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
 
-.toast{
+.toast {
     border-radius: 6px !important;
 }
-.toast.toast-success{
+#navbarSupportedContent{
+    display: none !important;
+}
+
+.toast.toast-success {
     background-color: #d3c0f6 !important;
     opacity: 0.8 !important;
     color: black !important;
 }
-.toast.toast-error{
+
+.toast.toast-error {
     background-color: #ffd7e4 !important;
     opacity: 0.8 !important;
     color: black !important;
@@ -20,7 +25,7 @@ body {
     /*backdrop-filter: blur(50px);*/
 }
 
-#particles{
+#particles {
     position: fixed;
     z-index: -1;
     height: 100%;
@@ -30,7 +35,8 @@ body {
     left: 0;
     right: 0;
 }
-h2,h3,h1{
+
+h2, h3, h1 {
     font-family: 'Cardo', serif;
 }
 
@@ -83,37 +89,44 @@ h2,h3,h1{
     margin-top: 5rem;
 }
 
-.section-heading{
+.section-heading {
     width: 50%;
     padding: 10px;
     text-align: center;
     margin: auto;
 }
-.section-heading-text{
+
+.section-heading-text {
     letter-spacing: 0.5rem;
     font-size: 3rem;
 }
-.glass-2{
+
+.glass-2 {
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: -10px 10px 12px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
-.feature-h{
+
+.feature-h {
     font-weight: bold;
     font-size: 2.2em;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.feature-t{
+
+.feature-t {
     font-size: 1.2em;
 }
-.feature-i{
+
+.feature-i {
     font-size: 3em;
 }
-#features .glass-2{
+
+#features .glass-2 {
     min-height: 300px;
 }
-.price{
+
+.price {
     font-family: 'Cardo', serif;
     font-size: 1.4em;
     font-weight: bold;
@@ -121,13 +134,15 @@ h2,h3,h1{
     bottom: 0;
     right: 0;
 }
-#faq .glass-2{
+
+#faq .glass-2 {
     height: 310px;
 }
 
-.buy-button{
+.buy-button {
     text-align: center;
 }
+
 .buy-button > a {
     margin-top: 2rem;
     color: #1d1d1d;
@@ -137,6 +152,7 @@ h2,h3,h1{
     font-weight: 600;
     transition: ease 0.5s;
 }
+
 .buy-button > button {
     margin-top: 2rem;
     color: #1d1d1d;
@@ -151,98 +167,220 @@ h2,h3,h1{
     letter-spacing: 0.23rem;
     font-weight: 600;
 }
-.form-control{
+
+.form-control {
     border: 2px solid black !important;
     color: black !important;
 }
-footer{
+
+footer {
     margin-top: 10em !important;
 }
-footer ul a{
+
+footer ul a {
     text-decoration: none !important;
     font-size: 1.1em;
     color: black;
 }
 
 /*Other pages*/
-.content{
+.content {
     text-align: justify;
     text-justify: distribute;
 }
 
 
 @media only screen and (min-width: 1600px) {
-    .container{
+    .container {
         max-width: 1600px;
     }
-    #features .glass-2{
+
+    #features .glass-2 {
         min-height: 300px;
     }
-    #features .feature-h{
+
+    #features .feature-h {
         width: 75%;
     }
-    .tagline{
+
+    .tagline {
         font-size: 3em;
     }
-    .hero-cta a{
+
+    .hero-cta a {
         margin-top: 4em;
         font-size: 2.5em;
     }
 }
 
-@media only screen and (max-width: 1200px){
-    #features .glass-2{
+@media only screen and (max-width: 1200px) {
+    #features .glass-2 {
         height: 400px;
     }
-    #faq .glass-2{
+
+    #faq .glass-2 {
         height: 400px;
     }
-    .hero-inner{
+
+    .hero-inner {
         width: 100%;
         padding-top: 15%;
     }
-    .tagline{
+
+    .tagline {
         font-size: 3.3em;
     }
-    .hero-cta .btn{
+
+    .hero-cta .btn {
         font-size: 2em;
     }
 }
 
-@media only screen and (max-width: 768px){
-    .feature-h{
+@media only screen and (max-width: 768px) {
+    .feature-h {
         font-weight: bold;
         font-size: 1.5em;
     }
-    .feature-t{
+
+    .feature-t {
         font-size: 1em;
     }
-    .feature-i{
+
+    .feature-i {
         font-size: 3em;
     }
-    #features .glass-2{
+
+    #features .glass-2 {
         padding: 5px 10px !important;
         height: auto;
     }
-    #faq .glass-2{
+
+    #faq .glass-2 {
         height: auto;
     }
-    #form-glass{
+
+    #form-glass {
         padding: 25px 10px !important;
     }
 
 
-    .hero-inner{
+    .hero-inner {
         width: 100%;
         padding-top: 15%;
     }
-    .tagline{
+
+    .tagline {
         font-size: 1.5em;
     }
-    .hero-cta .btn{
+
+    .hero-cta .btn {
         font-size: 0.9em;
     }
-    .section-heading{
+
+    .section-heading {
         width: 100%;
+    }
+}
+
+
+/*BOOTSTRAP MENU OVERRIDE FOR MOBILE*/
+@media (max-width: 991px) {
+    .navbar{
+        background: rgba(255,255,255,.8);
+        z-index: 110;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    #navbarSupportedContent{
+        display: block !important;
+    }
+
+    .navbar .navbar-collapse.collapsing {
+        height: auto !important;
+    }
+
+    .navbar .lateral-left {
+        left: -100%;
+        animation: slide-out-left 200ms forwards;
+    }
+
+    .navbar .lateral-left.open {
+        animation: slide-in-left 200ms forwards;
+    }
+
+    .navbar .lateral-right {
+        right: -100%;
+        animation: slide-out-right 200ms forwards;
+    }
+
+    .navbar .lateral-right.open {
+        animation: slide-in-right 200ms forwards;
+    }
+
+    .navbar .navbar-collapse {
+        top: 0;
+        bottom: 0;
+        position: fixed;
+        width: 80%;
+        max-width: 360px;
+        height: auto !important;
+
+        padding: 30px;
+        padding-top: 90px;
+        z-index: 100;
+        text-align: center;
+
+        background: rgba(255,255,255,.98);
+        box-shadow: -10px 200px 100px rgba(255,255,255,0.7);
+
+
+    }
+
+    .navbar .lateral-left.open,
+    .navbar .lateral-right.open {
+        display: block !important;
+        overflow-y: auto;
+    }
+
+    .nav-item {
+        margin-right: 0;
+    }
+}
+
+@keyframes slide-in-left {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes slide-out-left {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        right: -100%;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+@keyframes slide-out-right {
+    0% {
+        right: 0px;
+    }
+    100% {
+        right: -100%;
     }
 }
