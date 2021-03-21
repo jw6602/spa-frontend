@@ -183,7 +183,6 @@ footer ul a {
     color: black;
 }
 
-/*Other pages*/
 .content {
     text-align: justify;
     text-justify: distribute;
@@ -213,13 +212,18 @@ footer ul a {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
+
     #features .glass-2 {
         height: 400px;
     }
 
     #faq .glass-2 {
-        height: 400px;
+        height: 455px;
+    }
+
+    #pricing .glass-2{
+        padding: 10px 20px !important;
     }
 
     .hero-inner {
@@ -234,9 +238,11 @@ footer ul a {
     .hero-cta .btn {
         font-size: 2em;
     }
+
 }
 
 @media only screen and (max-width: 768px) {
+
     .feature-h {
         font-weight: bold;
         font-size: 1.5em;
@@ -286,6 +292,23 @@ footer ul a {
     }
 }
 
+@media only screen and (max-width: 420px) {
+    #features .glass-2{
+        min-height: 220px !important;
+    }
+    .feature-h{
+        font-size: 1em;
+    }
+    .feature-t{
+        font-size: .8em;
+    }
+    .feature-i{
+        font-size: 1em;
+    }
+    #home{
+        height: 100vh;
+    }
+}
 
 /*BOOTSTRAP MENU OVERRIDE FOR MOBILE*/
 @media (max-width: 991px) {
