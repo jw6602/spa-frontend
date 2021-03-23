@@ -4,7 +4,8 @@
 .toast {
     border-radius: 6px !important;
 }
-#navbarSupportedContent{
+
+#navbarSupportedContent {
     display: none !important;
 }
 
@@ -187,11 +188,16 @@ footer ul a {
     text-align: justify;
     text-justify: distribute;
 }
-#pills-tab .active{
+
+#pills-tab .active {
     font-weight: bold;
     letter-spacing: 3px;
 }
-#pills-tab .active:focus {outline:0 !important;box-shadow: none !important;}
+
+#pills-tab .active:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
 
 @media only screen and (min-width: 1600px) {
     .container {
@@ -226,7 +232,7 @@ footer ul a {
         height: 455px;
     }
 
-    #pricing .glass-2{
+    #pricing .glass-2 {
         padding: 10px 20px !important;
     }
 
@@ -241,6 +247,51 @@ footer ul a {
 
     .hero-cta .btn {
         font-size: 2em;
+    }
+
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+    #features .glass-2 {
+        height: 320px;
+
+    }
+
+    #faq .glass-2 {
+        height: 310px;
+    }
+
+    #pricing .glass-2 {
+        padding: 10px 20px !important;
+    }
+
+    .hero-inner {
+        width: 80%;
+        padding-top: 7%;
+    }
+
+    .tagline {
+        font-size: 2.3em;
+    }
+
+    .hero-cta .btn {
+        font-size: 1.5em;
+        margin-top: 2rem;
+    }
+
+
+    .feature-h {
+        font-size: 1.5em;
+    }
+
+    .feature-t {
+        font-size: 1em;
+    }
+
+    .feature-i {
+        font-size: 1.8em;
     }
 
 }
@@ -279,7 +330,7 @@ footer ul a {
         padding-top: 40%;
     }
 
-    .logo{
+    .logo {
         width: 150px !important;
     }
 
@@ -298,28 +349,34 @@ footer ul a {
 }
 
 @media only screen and (max-width: 420px) {
-    #features .glass-2{
+    #features .glass-2 {
         min-height: 220px !important;
     }
-    .feature-h{
+
+    .feature-h {
         font-size: 1em;
     }
-    .feature-t{
+
+    .feature-t {
         font-size: .8em;
     }
-    .feature-i{
+
+    .feature-i {
         font-size: 1em;
     }
-    #home{
+
+    #home {
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .hero-inner{
+
+    .hero-inner {
         padding-top: 0;
     }
-    .buy-button .nav-link{
+
+    .buy-button .nav-link {
         font-size: 0.99em;
         padding: .5rem 1rem;
         margin-right: 2px;
@@ -329,15 +386,16 @@ footer ul a {
 
 /*BOOTSTRAP MENU OVERRIDE FOR MOBILE*/
 @media (max-width: 991px) {
-    .navbar{
-        background: rgba(255,255,255,.8);
+    .navbar {
+        background: rgba(255, 255, 255, .8);
         z-index: 110;
         position: fixed;
         top: 0;
         right: 0;
         left: 0;
     }
-    #navbarSupportedContent{
+
+    #navbarSupportedContent {
         display: block !important;
     }
 
@@ -376,8 +434,8 @@ footer ul a {
         z-index: 100;
         text-align: center;
 
-        background: rgba(255,255,255,.98);
-        box-shadow: -10px 200px 100px rgba(255,255,255,0.7);
+        background: rgba(255, 255, 255, .98);
+        box-shadow: -10px 200px 100px rgba(255, 255, 255, 0.7);
 
 
     }
