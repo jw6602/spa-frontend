@@ -222,14 +222,14 @@ footer ul a {
     }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1440px) {
 
     #features .glass-2 {
-        height: 400px;
+        min-height: 280px;
     }
 
     #faq .glass-2 {
-        height: 455px;
+        height: 256px;
     }
 
     #pricing .glass-2 {
@@ -246,6 +246,19 @@ footer ul a {
     }
 
     .hero-cta .btn {
+        font-size: 2em;
+    }
+
+
+    .feature-h {
+        font-size: 1.9em;
+    }
+
+    .feature-t {
+        font-size: 1em;
+    }
+
+    .feature-i {
         font-size: 2em;
     }
 
