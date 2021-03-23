@@ -17,25 +17,43 @@
 
 <header class="">
     <nav class="navbar navbar-expand-lg navbar-light py-lg-4 px-lg-5">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="public/img/logo-spa.png" class="logo" alt="SPA Proxies"
-                                                  width="200px"></a>
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="public/img/logo-spa.png" class="logo" alt="SPA Proxies" width="200px">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse lateral-right" id="navbarSupportedContent">
+                <div class="border-2 border-dark border mb-2" data-aos="zoom-in-up">
+                    <span onclick="$('#navbarSupportedContent').toggleClass('open')"
+                          class="btn btn-block pattern-dots-sm w-100 fw-bold py-3 fs-5">M E N U</span>
+                </div>
+                <br>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item border-2 border-dark border mb-2">
+                        <a class="nav-link btn btn-block pattern-dots-sm w-100 active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item border-2 border-dark border mb-2">
+                        <a class="nav-link btn btn-block pattern-dots-sm w-100 active" href="#">Dashboard</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse lateral-right " id="largeScreenNav">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home">Login to dashboard</a>
+                        <a class="nav-link" href="#">Dashboard</a>
                     </li>
-
                 </ul>
             </div>
+
         </div>
     </nav>
 </header>
@@ -426,6 +444,18 @@
 </script>
 <script>
     AOS.init();
+</script>
+<script>
+    // Menu side toggle
+    $('document').ready(function () {
+        $(".navbar-toggler").click(function () {
+            let navbar_obj = $($(this).data("bs-target"));
+            navbar_obj.toggleClass("open");
+        });
+        $("#navbarSupportedContent .active").click(function () {
+            $("#navbarSupportedContent").toggleClass("open");
+        })
+    });
 </script>
 </body>
 </html>

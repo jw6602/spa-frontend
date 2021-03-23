@@ -205,7 +205,7 @@ footer ul a {
     }
 
     #features .glass-2 {
-        min-height: 300px;
+        min-height: 290px;
     }
 
     #features .feature-h {
@@ -229,7 +229,7 @@ footer ul a {
     }
 
     #faq .glass-2 {
-        height: 256px;
+        height: 290px;
     }
 
     #pricing .glass-2 {
@@ -238,7 +238,7 @@ footer ul a {
 
     .hero-inner {
         width: 100%;
-        padding-top: 15%;
+        /*padding-top: 15%;*/
     }
 
     .tagline {
@@ -340,7 +340,7 @@ footer ul a {
 
     .hero-inner {
         width: 100%;
-        padding-top: 40%;
+        padding-top: 30%;
     }
 
     .logo {
@@ -462,6 +462,9 @@ footer ul a {
     .nav-item {
         margin-right: 0;
     }
+    main.container{
+        margin-top: 150px;
+    }
 }
 
 @keyframes slide-in-left {
@@ -498,4 +501,5 @@ footer ul a {
     100% {
         right: -100%;
     }
+
 }
