@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://spaproxies.io/</loc>
+	<lastmod>2021-03-27T06:15:48+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://dashboard.spaproxies.io/login</loc>
+	<lastmod>2021-03-27T06:15:48+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://spaproxies.io/terms</loc>
+	<lastmod>2021-03-27T06:15:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spaproxies.io/privacy-policy</loc>
+	<lastmod>2021-03-27T06:15:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spaproxies.io/refund-policy</loc>
+	<lastmod>2021-03-27T06:15:53+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+</urlset>

@@ -1,24 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
 
-.toast {
-    border-radius: 6px !important;
-}
-
 #navbarSupportedContent {
     display: none !important;
 }
 
-.toast.toast-success {
-    background-color: #d3c0f6 !important;
-    opacity: 0.8 !important;
-    color: black !important;
-}
-
 .toast.toast-error {
-    background-color: #ffd7e4 !important;
-    opacity: 0.8 !important;
-    color: black !important;
+    background-color: #e02761 !important;
 }
 
 body {
