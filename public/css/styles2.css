@@ -98,8 +98,8 @@ h2, h3, h1 {
 }
 
 .feature-h {
-    font-weight: bold;
-    font-size: 2.2em;
+    font-weight: lighter;
+    font-size: 1.3em;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -113,7 +113,7 @@ h2, h3, h1 {
 }
 
 #features .glass-2 {
-    min-height: 300px;
+    /*min-height: 300px;*/
 }
 
 .price {
@@ -126,7 +126,12 @@ h2, h3, h1 {
 }
 
 #faq .glass-2 {
-    height: 290px;
+    height: 200px;
+}
+
+#faq .feature-h{
+    font-size: 1em;
+    font-weight: bold;
 }
 
 .buy-button {
@@ -214,11 +219,11 @@ footer ul a {
 @media only screen and (max-width: 1440px) {
 
     #features .glass-2 {
-        min-height: 280px;
+        /*min-height: 200px;*/
     }
 
     #faq .glass-2 {
-        height: 290px;
+        height: 200px;
     }
 
     #pricing .glass-2 {
@@ -240,7 +245,7 @@ footer ul a {
 
 
     .feature-h {
-        font-size: 1.9em;
+        font-size: 1.5em;
     }
 
     .feature-t {
@@ -257,12 +262,12 @@ footer ul a {
 @media only screen and (max-width: 1280px) {
 
     #features .glass-2 {
-        height: 320px;
+        height: 200px;
 
     }
 
     #faq .glass-2 {
-        height: 290px;
+        height: 250px;
     }
 
     #pricing .glass-2 {
@@ -301,8 +306,7 @@ footer ul a {
 @media only screen and (max-width: 768px) {
 
     .feature-h {
-        font-weight: bold;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .feature-t {
@@ -357,7 +361,7 @@ footer ul a {
 
 @media only screen and (max-width: 420px) {
     #features .glass-2 {
-        min-height: 220px !important;
+        min-height: 120px !important;
     }
 
     .feature-h {
